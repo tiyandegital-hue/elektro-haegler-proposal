@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="sb-title sb-desc">
+  <title id="sb-title">Schaltschrank — schematische Darstellung</title>
+  <desc id="sb-desc">Stilisierte Zeichnung eines Schaltschranks mit Sicherungsreihen, gelben Schaltern und technischen Beschriftungen.</desc>
+  <rect width="600" height="420" fill="#141613"/>
+  <g stroke="#2C2E2B" stroke-width="1">
+    <path d="M0 105h600M0 210h600M0 315h600M150 0v420M300 0v420M450 0v420"/>
+  </g>
+  <!-- cabinet frame -->
+  <rect x="52" y="28" width="496" height="364" fill="#1B1D1A" stroke="#F4F2EC" stroke-opacity="0.35" stroke-width="2"/>
+  <rect x="52" y="28" width="496" height="34" fill="#0E0F0D"/>
+  <text x="68" y="50" font-family="monospace" font-size="13" letter-spacing="3" fill="#FED136">SCHALTSCHRANK // HV-01</text>
+  <text x="532" y="50" font-family="monospace" font-size="13" letter-spacing="2" fill="#8A8F8A" text-anchor="end">DIN 14675</text>
+  <!-- DIN rails -->
+  <g>
+    <rect x="76" y="88" width="448" height="10" fill="#2C2E2B"/>
+    <rect x="76" y="188" width="448" height="10" fill="#2C2E2B"/>
+    <rect x="76" y="288" width="448" height="10" fill="#2C2E2B"/>
+  </g>
+  <!-- breakers row 1 -->
+  <g>
+    <g><rect x="84" y="106" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="91" y="118" width="20" height="26" fill="#FED136"/><text x="101" y="156" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B16</text></g>
+    <g><rect x="126" y="106" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="133" y="118" width="20" height="26" fill="#FED136"/><text x="143" y="156" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B16</text></g>
+    <g><rect x="168" y="106" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="175" y="118" width="20" height="26" fill="#2C2E2B"/><text x="185" y="156" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B20</text></g>
+    <g><rect x="210" y="106" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="217" y="118" width="20" height="26" fill="#FED136"/><text x="227" y="156" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B16</text></g>
+    <g><rect x="252" y="106" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="259" y="118" width="20" height="26" fill="#FED136"/><text x="269" y="156" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">C25</text></g>
+    <!-- FI switch, red = emergency -->
+    <g><rect x="310" y="106" width="58" height="58" fill="#0E0F0D" stroke="#E63946" stroke-width="2"/><rect x="322" y="118" width="34" height="26" fill="#E63946"/><text x="339" y="156" font-family="monospace" font-size="9" fill="#F4F2EC" text-anchor="middle">FI 40A</text></g>
+    <g><rect x="392" y="106" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="399" y="118" width="20" height="26" fill="#FED136"/><text x="409" y="156" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B10</text></g>
+    <g><rect x="434" y="106" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="441" y="118" width="20" height="26" fill="#2C2E2B"/><text x="451" y="156" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B10</text></g>
+    <g><rect x="476" y="106" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="483" y="118" width="20" height="26" fill="#FED136"/><text x="493" y="156" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B16</text></g>
+  </g>
+  <!-- breakers row 2 -->
+  <g>
+    <g><rect x="84" y="206" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="91" y="218" width="20" height="26" fill="#FED136"/><text x="101" y="256" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B16</text></g>
+    <g><rect x="126" y="206" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="133" y="218" width="20" height="26" fill="#2C2E2B"/><text x="143" y="256" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B20</text></g>
+    <g><rect x="168" y="206" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="175" y="218" width="20" height="26" fill="#FED136"/><text x="185" y="256" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B16</text></g>
+    <g><rect x="210" y="206" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="217" y="218" width="20" height="26" fill="#FED136"/><text x="227" y="256" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">C32</text></g>
+    <!-- brandmeldezentrale module -->
+    <g><rect x="268" y="206" width="142" height="58" fill="#0E0F0D" stroke="#FED136" stroke-width="2"/><text x="282" y="228" font-family="monospace" font-size="11" letter-spacing="2" fill="#FED136">BMZ // ESSER</text><text x="282" y="248" font-family="monospace" font-size="10" fill="#8A8F8A">MELDERKREIS 01–04</text><circle cx="394" cy="224" r="5" fill="#FED136"/><circle cx="394" cy="244" r="5" fill="#2C2E2B" stroke="#8A8F8A"/></g>
+    <g><rect x="434" y="206" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="441" y="218" width="20" height="26" fill="#FED136"/><text x="451" y="256" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B10</text></g>
+    <g><rect x="476" y="206" width="34" height="58" fill="#0E0F0D" stroke="#434541"/><rect x="483" y="218" width="20" height="26" fill="#2C2E2B"/><text x="483" y="256" font-family="monospace" font-size="9" fill="#8A8F8A" text-anchor="middle">B10</text></g>
+  </g>
+  <!-- row 3: terminals + cable ducts -->
+  <g>
+    <rect x="84" y="306" width="200" height="58" fill="#0E0F0D" stroke="#434541"/>
+    <g stroke="#FED136" stroke-width="2"><path d="M100 364V330M120 364V330M140 364V330M160 364V330M180 364V330M200 364V330M220 364V330M240 364V330"/></g>
+    <text x="96" y="322" font-family="monospace" font-size="10" fill="#8A8F8A">REIHENKLEMMEN // X1</text>
+    <rect x="308" y="306" width="216" height="58" fill="#FED136"/>
+    <text x="324" y="332" font-family="monospace" font-size="12" letter-spacing="2" fill="#14130A">GEPRÜFT NACH DGUV V3</text>
+    <text x="324" y="352" font-family="monospace" font-size="11" fill="#14130A">E-CHECK // DOKUMENTIERT</text>
+  </g>
+  <!-- circuit lines -->
+  <g stroke="#FED136" stroke-width="1.5" fill="none" opacity="0.7">
+    <path d="M101 106V88M339 106V88M227 206V198"/>
+    <circle cx="101" cy="88" r="3" fill="#FED136"/>
+    <circle cx="339" cy="88" r="3" fill="#FED136"/>
+  </g>
+</svg>
